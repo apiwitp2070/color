@@ -36,6 +36,18 @@ A simple CLI tool that allows you to preview colors in your terminal by providin
    Or make the CLI executable globally by putting it inside `/usr/local/bin`
    
    ```bash
-   sudo mv dist/index.js /usr/local/bin/color-preview # or any name you like
-   sudo chmod +x /usr/local/bin/color-preview
+   sudo mv dist/index.js /usr/local/bin/color # or any name you like
+   sudo chmod +x /usr/local/bin/color
+   ```
+
+## How to use
+
+
+1. Calling the command without anything will ask you to provide color code in hex format without `#` symbol
+   ```bash
+   color
+   ```
+2. You can also provide color code along with the command
+   ```bash
+   color FFFFFF
    ```
